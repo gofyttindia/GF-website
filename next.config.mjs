@@ -12,14 +12,8 @@ const nextConfig = {
   },
   // Mark mongodb as external - it's optional and only used when MONGODB_URI is configured
   serverExternalPackages: ['mongodb'],
-  webpack: (config, { isServer }) => {
-    if (isServer) {
-      // Mark mongodb as external to prevent bundling errors when not installed
-      config.externals = config.externals || []
-      config.externals.push('mongodb')
-    }
-    return config
-  },
+  // Enable Turbopack (default in Next.js 16) - empty config silences webpack migration warning
+  turbopack: {},
 }
 
 export default nextConfig
