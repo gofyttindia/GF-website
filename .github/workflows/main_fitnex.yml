@@ -30,16 +30,28 @@ jobs:
       - name: Build Next.js app
         run: npm run build
 
-      - name: Copy static files to standalone
+      - name: Prepare standalone deployment
         run: |
+          # Copy static files to standalone
           cp -r .next/static .next/standalone/.next/static
           cp -r public .next/standalone/public
+          
+          # List files for debugging
+          echo "=== Standalone directory structure ==="
+          ls -la .next/standalone/
+          echo "=== .next directory in standalone ==="
+          ls -la .next/standalone/.next/
+
+      - name: Create deployment package
+        run: |
+          cd .next/standalone
+          zip -r ../../deploy.zip .
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: .next/standalone
+          path: deploy.zip
 
   deploy:
     runs-on: ubuntu-latest
@@ -62,9 +74,8 @@ jobs:
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_E0F7D446FF494C51A466D1EEE75E18DA }}
 
       - name: 'Deploy to Azure Web App'
-        id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'fitnex'
           slot-name: 'Production'
-          package: .
+          package: deploy.zip
