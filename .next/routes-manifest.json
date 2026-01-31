@@ -1,0 +1,146 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/api/forms/submit",
+      "regex": "^/api/forms/submit(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/forms/submit(?:/)?$"
+    },
+    {
+      "page": "/api/whatsapp/send",
+      "regex": "^/api/whatsapp/send(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/whatsapp/send(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/form",
+      "regex": "^/form(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/form(?:/)?$"
+    },
+    {
+      "page": "/form/couple",
+      "regex": "^/form/couple(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/form/couple(?:/)?$"
+    },
+    {
+      "page": "/form/premium",
+      "regex": "^/form/premium(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/form/premium(?:/)?$"
+    },
+    {
+      "page": "/form/standard",
+      "regex": "^/form/standard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/form/standard(?:/)?$"
+    },
+    {
+      "page": "/membership",
+      "regex": "^/membership(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/membership(?:/)?$"
+    },
+    {
+      "page": "/programs",
+      "regex": "^/programs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/programs(?:/)?$"
+    },
+    {
+      "page": "/reviews",
+      "regex": "^/reviews(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/reviews(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/trainers",
+      "regex": "^/trainers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/trainers(?:/)?$"
+    },
+    {
+      "page": "/transformations",
+      "regex": "^/transformations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/transformations(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

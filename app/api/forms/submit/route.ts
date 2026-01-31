@@ -109,16 +109,8 @@ async function saveToDatabase(data: any) {
     return await response.json()
   }
 
-  // MongoDB example (if using MongoDB)
-  if (process.env.MONGODB_URI) {
-    try {
-      const { saveFormSubmission } = await import('@/lib/mongodb')
-      const result = await saveFormSubmission(data)
-      return { success: true, insertedId: result.insertedId }
-    } catch (error: any) {
-      throw new Error(`MongoDB save failed: ${error.message}`)
-    }
-  }
+  // MongoDB support removed - using Supabase instead
+  // To add MongoDB support: pnpm add mongodb, then create lib/mongodb.ts
 
   return { message: 'No database configured' }
 }
