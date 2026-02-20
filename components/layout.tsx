@@ -45,7 +45,7 @@ export function Header() {
           </Link>
         </nav>
         <Link 
-          href="https://whatsform.com/bwc04s"
+          href="https://whatsform.com/y7nger"
           target="_blank"
           rel="noopener noreferrer"
         >
