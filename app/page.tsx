@@ -425,7 +425,7 @@ export default function HomePage() {
                 </ul>
                 <div className="mt-auto pt-4">
                   <Link 
-                    href="https://whatsform.com/bwc04s"
+                    href="https://whatsform.com/y7nger"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -493,7 +493,7 @@ export default function HomePage() {
                 </ul>
                 <div className="mt-auto pt-4">
                   <Link 
-                    href="https://whatsform.com/bwc04s"
+                    href="https://whatsform.com/y7nger"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -549,7 +549,7 @@ export default function HomePage() {
                 </ul>
                 <div className="mt-auto pt-4">
                   <Link 
-                    href="https://whatsform.com/bwc04s"
+                    href="https://whatsform.com/y7nger"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -574,7 +574,7 @@ export default function HomePage() {
             Daily accountability, enforced discipline, and fast corrections. Built for serious results.
             </p>
             <div className="flex justify-center mt-6">
-              <Link href="https://whatsform.com/bwc04s" target="_blank" rel="noopener noreferrer">
+              <Link href="https://whatsform.com/y7nger" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-white">
                   Join Elite Program
                 </Button>
@@ -695,7 +695,7 @@ We don’t train what you like. We fix what’s holding you back - from the core
           </div>
 
           <div className="text-center mt-12">
-            <Link href="https://whatsform.com/bwc04s" target="_blank" rel="noopener noreferrer">
+            <Link href="https://whatsform.com/y7nger" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-white">
                 Join Elite Program
               </Button>
@@ -714,7 +714,7 @@ We don’t train what you like. We fix what’s holding you back - from the core
             Structured guidance with weekly reviews. Ideal for self-disciplined individuals who can execute independently.
             </p>
             <div className="flex justify-center mt-6">
-              <Link href="https://whatsform.com/bwc04s" target="_blank" rel="noopener noreferrer">
+              <Link href="https://whatsform.com/y7nger" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-white">
                   Join Standard Program
                 </Button>
@@ -773,7 +773,7 @@ We don’t train what you like. We fix what’s holding you back - from the core
           </div>
 
           <div className="text-center mt-12">
-            <Link href="https://whatsform.com/bwc04s" target="_blank" rel="noopener noreferrer">
+            <Link href="https://whatsform.com/y7nger" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-white">
                 Join Standard Program
               </Button>
@@ -817,7 +817,7 @@ We don’t train what you like. We fix what’s holding you back - from the core
               
               
               <Link 
-                href="https://whatsform.com/bwc04s" 
+                href="https://whatsform.com/y7nger" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity"
